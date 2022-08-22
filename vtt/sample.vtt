@@ -1,0 +1,879 @@
+﻿WEBVTT
+
+00:00:00.000 --> 00:00:00.976
+this James bird and
+I'm here to talk
+
+00:00:01.000 --> 00:00:03.667
+about web accessibility
+so you can think
+
+00:00:04.000 --> 00:00:05.976
+of the web a lot like
+you can think of a
+
+00:00:06.000 --> 00:00:06.976
+public library
+
+00:00:07.000 --> 00:00:08.976
+it's a giant store
+of information
+
+00:00:09.000 --> 00:00:10.976
+available to everyone
+that people from
+
+00:00:11.000 --> 00:00:12.976
+all over can go to
+however do you see a
+
+00:00:13.000 --> 00:00:14.976
+problem in this image
+if you can't get
+
+00:00:15.000 --> 00:00:16.976
+upstairs you're
+probably gonna have a
+
+00:00:17.000 --> 00:00:17.976
+little bit of trouble
+getting into the
+
+00:00:18.000 --> 00:00:19.976
+library unless you
+have an access ramp
+
+00:00:20.000 --> 00:00:22.400
+where the accessibility
+is basically
+
+00:00:23.000 --> 00:00:24.976
+building access ramps
+to the web and
+
+00:00:25.000 --> 00:00:25.976
+making sure that
+everyone can access
+
+00:00:26.000 --> 00:00:27.976
+everything in the web
+equally and on the
+
+00:00:28.000 --> 00:00:30.400
+same level so here's
+an example this
+
+00:00:33.000 --> 00:00:34.976
+code more or less
+you know looks fine
+
+00:00:35.000 --> 00:00:37.533
+you know it's not
+great code it's kind
+
+00:00:38.000 --> 00:00:39.976
+of a crappy website probably but
+
+00:00:40.000 --> 00:00:41.976
+nonetheless it works
+however there are
+
+00:00:42.000 --> 00:00:43.976
+some problems that
+are not immediately
+
+00:00:44.000 --> 00:00:44.976
+apparent from just
+looking at the code
+
+00:00:45.000 --> 00:00:47.400
+so here I'm going
+to open up the web
+
+00:00:48.000 --> 00:00:50.533
+page and we'll see
+the problem see not
+
+00:00:53.000 --> 00:00:54.976
+only is this ugly
+there's also the fact
+
+00:00:55.000 --> 00:00:56.976
+that if you have red
+gooey red green
+
+00:00:57.000 --> 00:00:58.976
+colorblindness you're
+probably going to
+
+00:00:59.000 --> 00:00:59.976
+have a lot of trouble
+reading any of the
+
+00:01:00.000 --> 00:01:02.467
+actual text because
+it's green on red
+
+00:01:03.000 --> 00:01:04.976
+this is probably not immediately
+
+00:01:05.000 --> 00:01:05.976
+apparent to most
+people and it doesn't
+
+00:01:06.000 --> 00:01:07.976
+even affect most
+people but it's still
+
+00:01:08.000 --> 00:01:08.976
+there and you want
+your website to be
+
+00:01:09.000 --> 00:01:10.976
+accessed to be able
+to be accessed by
+
+00:01:11.000 --> 00:01:13.533
+every person you know
+every person who
+
+00:01:14.000 --> 00:01:14.976
+can't access your
+website because of a
+
+00:01:15.000 --> 00:01:16.976
+disability is lost
+business in addition
+
+00:01:17.000 --> 00:01:19.533
+to just being unfair
+to that person so
+
+00:01:22.000 --> 00:01:24.200
+to combat this the
+World Wide Web
+
+00:01:25.000 --> 00:01:26.976
+Consortium which is
+more or less the
+
+00:01:27.000 --> 00:01:28.976
+governing body of the
+web or as close as
+
+00:01:29.000 --> 00:01:30.933
+can be to one created the web
+
+00:01:31.000 --> 00:01:33.667
+accessibility initiative
+which sought to
+
+00:01:34.000 --> 00:01:35.976
+create web content accessibility
+
+00:01:36.000 --> 00:01:38.533
+guidelines or WCAG
+currently they have
+
+00:01:40.000 --> 00:01:42.467
+published wcag 2.0
+in 2008 and that's
+
+00:01:45.000 --> 00:01:45.976
+pretty much the why
+most widely accepted
+
+00:01:46.000 --> 00:01:48.667
+standard for web
+accessibility standards
+
+00:01:50.000 --> 00:01:51.976
+pretty much every
+country goes by some
+
+00:01:52.000 --> 00:01:54.533
+variant of this or
+just uses WCAG 2 so
+
+00:01:57.000 --> 00:01:59.667
+what does that consist
+of well there are
+
+00:02:00.000 --> 00:02:02.600
+four main principles
+information should
+
+00:02:03.000 --> 00:02:04.976
+be perceivable which
+basically means
+
+00:02:05.000 --> 00:02:07.667
+that everyone should
+be able to perceive
+
+00:02:08.000 --> 00:02:09.976
+the information you
+shouldn't have any
+
+00:02:10.000 --> 00:02:10.976
+information that's hidden to a
+
+00:02:11.000 --> 00:02:12.933
+particular class of users for
+
+00:02:13.000 --> 00:02:15.067
+if you are deaf you should have
+
+00:02:16.000 --> 00:02:16.976
+transcripts that you
+can read for audio
+
+00:02:17.000 --> 00:02:18.976
+podcasts because otherwise that
+
+00:02:19.000 --> 00:02:20.976
+information will be
+completely hidden
+
+00:02:21.000 --> 00:02:23.600
+information and the
+website needs to be
+
+00:02:24.000 --> 00:02:24.976
+operable which means
+you need to be able
+
+00:02:25.000 --> 00:02:27.600
+to access all of the
+website regardless
+
+00:02:28.000 --> 00:02:29.976
+of disabilities so
+for example you
+
+00:02:30.000 --> 00:02:31.976
+wouldn't want for
+example a button that
+
+00:02:32.000 --> 00:02:33.976
+can only be activated
+by clicking on it
+
+00:02:34.000 --> 00:02:35.976
+and not by any sort
+of keyboard commands
+
+00:02:36.000 --> 00:02:37.976
+because then if you
+can't use a mouse do
+
+00:02:38.000 --> 00:02:39.976
+it for example a motor
+disability you're
+
+00:02:40.000 --> 00:02:40.976
+not going to be
+able to access that
+
+00:02:41.000 --> 00:02:43.600
+button you have
+understandable this one
+
+00:02:45.000 --> 00:02:46.976
+is a little bit more
+vague a little bit
+
+00:02:47.000 --> 00:02:49.267
+more straightforward
+basically all
+
+00:02:50.000 --> 00:02:50.976
+information needs
+to be able to be
+
+00:02:51.000 --> 00:02:52.976
+understood by the
+user your website
+
+00:02:53.000 --> 00:02:54.976
+should be predictable
+it shouldn't do
+
+00:02:55.000 --> 00:02:55.976
+just like weird like
+unexplained things
+
+00:02:56.000 --> 00:02:57.976
+this is also just
+good website design
+
+00:02:58.000 --> 00:02:59.976
+besides being helpful
+to some people
+
+00:03:00.000 --> 00:03:01.976
+with disabilities and
+then lastly your
+
+00:03:02.000 --> 00:03:03.976
+website needs to
+be a robust which
+
+00:03:04.000 --> 00:03:05.976
+basically just
+means you know for
+
+00:03:06.000 --> 00:03:07.976
+unpredictable use
+cases for things you
+
+00:03:08.000 --> 00:03:08.976
+haven't tested you
+know for different
+
+00:03:09.000 --> 00:03:11.333
+weird specs like
+on mobile on a big
+
+00:03:12.000 --> 00:03:12.976
+screen on all that
+type of stuff your
+
+00:03:13.000 --> 00:03:14.976
+website should still
+operate more or
+
+00:03:15.000 --> 00:03:16.976
+less the same and still
+be accessible to
+
+00:03:17.000 --> 00:03:17.001
+everyone
+
+00:03:17.000 --> 00:03:19.533
+so there are 12 general
+guidelines for
+
+00:03:21.000 --> 00:03:22.976
+implementing these
+principles which have
+
+00:03:23.000 --> 00:03:25.667
+61 testable criteria
+and there are three
+
+00:03:26.000 --> 00:03:27.976
+levels of conformance
+a double-a and
+
+00:03:28.000 --> 00:03:29.976
+triple-a so at this point you're
+
+00:03:30.000 --> 00:03:30.976
+probably like feel
+a little bit like
+
+00:03:31.000 --> 00:03:33.667
+Cody here because yeah
+it's very complex
+
+00:03:35.000 --> 00:03:36.976
+and in making a
+site completely web
+
+00:03:37.000 --> 00:03:38.976
+accessible and
+implementing it as Triple
+
+00:03:39.000 --> 00:03:40.976
+A which is the highest
+level is very
+
+00:03:41.000 --> 00:03:43.533
+difficult and it takes
+a long time the
+
+00:03:44.000 --> 00:03:44.976
+point is you shouldn't
+worry about that
+
+00:03:45.000 --> 00:03:45.976
+too much
+
+00:03:46.000 --> 00:03:47.976
+you should mostly
+focus on when you're
+
+00:03:48.000 --> 00:03:49.976
+building a website
+think about the type
+
+00:03:50.000 --> 00:03:50.976
+of things that could
+make life easier
+
+00:03:51.000 --> 00:03:52.976
+for disabled people think about
+
+00:03:53.000 --> 00:03:54.976
+implementing alternatives
+so if you have
+
+00:03:55.000 --> 00:03:56.976
+a function that
+really just can't be
+
+00:03:57.000 --> 00:03:57.976
+implemented in a way
+that's accessible
+
+00:03:58.000 --> 00:03:59.976
+provide an alternative
+to get the same
+
+00:04:00.000 --> 00:04:01.976
+information it doesn't
+have to be on the
+
+00:04:02.000 --> 00:04:02.976
+main site as long as
+you can get to it
+
+00:04:03.000 --> 00:04:05.400
+from the main site
+and even a lot of
+
+00:04:06.000 --> 00:04:07.976
+like professional
+websites and even a
+
+00:04:08.000 --> 00:04:09.976
+lot of governments
+only require single A
+
+00:04:10.000 --> 00:04:11.976
+or double-a levels of
+conformance Triple
+
+00:04:12.000 --> 00:04:14.667
+A is very very much
+an ideal moreso than
+
+00:04:15.000 --> 00:04:17.600
+a practical thing for
+large websites so
+
+00:04:18.000 --> 00:04:19.976
+to think about what
+kind of disabilities
+
+00:04:20.000 --> 00:04:21.976
+you should be targeting
+here are some
+
+00:04:22.000 --> 00:04:24.600
+general categories
+you have people with
+
+00:04:25.000 --> 00:04:25.976
+visual disabilities
+for example the
+
+00:04:26.000 --> 00:04:26.976
+blind
+
+00:04:27.000 --> 00:04:28.976
+colorblind things like
+that people can't
+
+00:04:29.000 --> 00:04:31.400
+read very well so
+for these types of
+
+00:04:32.000 --> 00:04:32.976
+things you need to
+think about how you
+
+00:04:33.000 --> 00:04:35.467
+use color a lot you
+shouldn't use you
+
+00:04:36.000 --> 00:04:37.976
+shouldn't have contrast
+between text and
+
+00:04:38.000 --> 00:04:39.976
+background that makes
+it difficult to
+
+00:04:40.000 --> 00:04:41.976
+see you should
+make sure all your
+
+00:04:42.000 --> 00:04:43.976
+websites are capable
+of being used by
+
+00:04:44.000 --> 00:04:45.976
+screen readers which
+are basically just
+
+00:04:46.000 --> 00:04:47.976
+things that are operated
+by the keyboard
+
+00:04:48.000 --> 00:04:48.976
+and just read out
+the content of the
+
+00:04:49.000 --> 00:04:51.533
+thing so for example
+a classic example
+
+00:04:52.000 --> 00:04:54.667
+of this is an image
+tag you need to have
+
+00:04:55.000 --> 00:04:57.200
+an alt tag in your
+images because
+
+00:04:58.000 --> 00:04:58.976
+otherwise people with
+slow internet or
+
+00:04:59.000 --> 00:04:59.976
+people using screen
+readers are not
+
+00:05:00.000 --> 00:05:01.976
+going to get anything
+information from
+
+00:05:02.000 --> 00:05:03.976
+that it's just going
+to be this mystical
+
+00:05:04.000 --> 00:05:05.976
+thing that no one can
+look at you have
+
+00:05:06.000 --> 00:05:07.976
+people of audio
+disabilities so for
+
+00:05:08.000 --> 00:05:10.600
+example deafness
+hard-of-hearing and so
+
+00:05:11.000 --> 00:05:12.867
+these are the aforementioned
+
+00:05:13.000 --> 00:05:14.976
+transcripts come in
+a lot of handy you
+
+00:05:15.000 --> 00:05:15.976
+want to have
+subtitles for videos
+
+00:05:16.000 --> 00:05:18.267
+transcripts for
+podcasts etc motor
+
+00:05:20.000 --> 00:05:21.976
+disabilities so for
+example things that
+
+00:05:22.000 --> 00:05:22.976
+make it difficult to
+use a mouse or even
+
+00:05:23.000 --> 00:05:24.976
+things that make it
+difficult to use a
+
+00:05:25.000 --> 00:05:25.976
+keyboard this is why
+you want to have
+
+00:05:26.000 --> 00:05:27.976
+your website be
+completely accessible
+
+00:05:28.000 --> 00:05:29.976
+solely from the
+keyboard so that people
+
+00:05:30.000 --> 00:05:32.600
+not who can't use a
+mouse can still use
+
+00:05:33.000 --> 00:05:35.467
+it completely and
+then cognitive this
+
+00:05:36.000 --> 00:05:36.976
+one's a little bit
+harder to quantify
+
+00:05:37.000 --> 00:05:39.400
+specifically but
+basically just make
+
+00:05:40.000 --> 00:05:41.976
+your information able
+to be accessed by
+
+00:05:42.000 --> 00:05:44.467
+people with learning
+disabilities you
+
+00:05:45.000 --> 00:05:45.976
+know even like younger
+children also
+
+00:05:46.000 --> 00:05:47.976
+like people who aren't
+necessarily going
+
+00:05:48.000 --> 00:05:49.976
+to be able to like
+read and understand
+
+00:05:50.000 --> 00:05:52.667
+like a long block of
+text or whatever so
+
+00:05:54.000 --> 00:05:54.976
+we're going to go
+over another example
+
+00:05:55.000 --> 00:05:57.467
+I've built my own
+private website and
+
+00:05:58.000 --> 00:05:58.976
+I'm really proud of
+it so you know I'm
+
+00:05:59.000 --> 00:06:00.976
+going to show it to
+you guys are you
+
+00:06:01.000 --> 00:06:03.400
+ready oh well that
+doesn't look very
+
+00:06:04.000 --> 00:06:06.400
+good huh all right
+so I thought this
+
+00:06:09.000 --> 00:06:09.976
+website was gonna be
+great but clearly
+
+00:06:10.000 --> 00:06:11.976
+there's a lot of
+web accessibility
+
+00:06:12.000 --> 00:06:13.976
+issues like the
+contrast is terrible
+
+00:06:14.000 --> 00:06:14.976
+this might trigger
+people with epilepsy
+
+00:06:15.000 --> 00:06:17.400
+I don't even know
+what this is let's
+
+00:06:18.000 --> 00:06:19.976
+look at the actual
+document so you
+
+00:06:20.000 --> 00:06:22.467
+wouldn't clean some
+of this up so the
+
+00:06:23.000 --> 00:06:23.976
+first thing you
+should do when you're
+
+00:06:24.000 --> 00:06:24.976
+mixing a website to
+make it more web
+
+00:06:25.000 --> 00:06:27.533
+accessible is the
+biggest problem with
+
+00:06:28.000 --> 00:06:28.976
+this code is it's
+really hard to read
+
+00:06:29.000 --> 00:06:30.976
+because I didn't
+implement a stylesheet
+
+00:06:31.000 --> 00:06:32.976
+I just have all this
+code inside style
+
+00:06:33.000 --> 00:06:35.600
+tag I have some inline
+styling and then
+
+00:06:37.000 --> 00:06:37.976
+my script tag instead
+of putting it in a
+
+00:06:38.000 --> 00:06:39.976
+separate JavaScript
+pile I just put
+
+00:06:40.000 --> 00:06:41.976
+actual script right
+here so the first
+
+00:06:42.000 --> 00:06:43.976
+thing you should do
+is refactor those
+
+00:06:44.000 --> 00:06:45.976
+and take all those
+out and move them to
+
+00:06:46.000 --> 00:06:47.976
+a separate file
+so the difference
+
+00:06:48.000 --> 00:06:49.976
+between this which is this long
+
+00:06:50.000 --> 00:06:52.600
+unreadable thing and
+then this which is
+
+00:06:54.000 --> 00:06:55.976
+just the HTML itself
+is huge and it
+
+00:06:56.000 --> 00:06:57.976
+makes it much easier
+to change things
+
+00:06:58.000 --> 00:06:59.976
+it's like for example
+you'll notice I've
+
+00:07:00.000 --> 00:07:00.976
+been pointed everything
+with classes I
+
+00:07:01.000 --> 00:07:03.600
+have a script file I
+have a style sheet
+
+00:07:05.000 --> 00:07:07.533
+somewhere else don't
+panic also it's a
+
+00:07:15.000 --> 00:07:15.976
+very daunting task
+especially when
+
+00:07:16.000 --> 00:07:17.976
+you're using some
+sort of editor that
+
+00:07:18.000 --> 00:07:18.976
+will give you all
+these errors for like
+
+00:07:19.000 --> 00:07:20.976
+this is not accessible
+this is not
+
+00:07:21.000 --> 00:07:21.976
+accessible this is
+you're doing this
+
+00:07:22.000 --> 00:07:23.976
+wrong don't panic
+don't worry about
+
+00:07:24.000 --> 00:07:25.976
+making everything
+perfect immediately
+
+00:07:26.000 --> 00:07:27.976
+because it's not going
+to be it's very
+
+00:07:28.000 --> 00:07:29.976
+difficult to make a
+website completely
+
+00:07:30.000 --> 00:07:30.976
+web accessible that's
+why it's taken so
+
+00:07:31.000 --> 00:07:33.533
+long for the w3c to
+implement the WCAG
+
+00:07:38.000 --> 00:07:39.976
+separate your HTML
+from your CSS and
+
+00:07:40.000 --> 00:07:42.533
+your JavaScript and
+consider providing
+
+00:07:43.000 --> 00:07:44.976
+alternatives sometimes
+it's a lot easier
+
+00:07:45.000 --> 00:07:45.976
+instead of just
+completely changing your
+
+00:07:46.000 --> 00:07:47.976
+main site to just
+provide a link there
+
+00:07:48.000 --> 00:07:49.976
+that says you know
+for people with this
+
+00:07:50.000 --> 00:07:51.976
+disability consider
+using this other
+
+00:07:52.000 --> 00:07:53.976
+resource and then you
+can just provide
+
+00:07:54.000 --> 00:07:55.976
+it very simply without
+having to change
+
+00:07:56.000 --> 00:07:58.600
+your main website and
+then if anyone is
+
+00:08:01.000 --> 00:08:03.533
+interested you can
+read about the WCAG
+
+00:08:04.000 --> 00:08:06.333
+guidelines in greedy
+detail at this
+
+00:08:07.000 --> 00:08:08.133
+website thank you
+
+00:08:09.000 --> 00:08:10.000
+[Applause]

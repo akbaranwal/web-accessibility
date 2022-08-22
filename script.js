@@ -1,0 +1,1 @@
+$(function(){$("#header").load("header.html"),$("#footer").load("footer.html")}),document.getElementById("popoup").style.display="none";var a=1;function transcriptss(){return 1==a?(document.getElementById("popoup").style.display="inline",console.log("Button inline Clicked"),a=0):(document.getElementById("popoup").style.display="none",console.log("Button none Clicked"),a=1)}

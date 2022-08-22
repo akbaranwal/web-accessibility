@@ -1,0 +1,448 @@
+0:00
+this James bird and I'm here to talk
+0:01
+about web accessibility so you can think
+0:04
+of the web a lot like you can think of a
+0:06
+public library
+0:07
+it's a giant store of information
+0:09
+available to everyone that people from
+0:11
+all over can go to however do you see a
+0:13
+problem in this image if you can't get
+0:15
+upstairs you're probably gonna have a
+0:17
+little bit of trouble getting into the
+0:18
+library unless you have an access ramp
+0:20
+where the accessibility is basically
+0:23
+building access ramps to the web and
+0:25
+making sure that everyone can access
+0:26
+everything in the web equally and on the
+0:28
+same level so here's an example this
+0:33
+code more or less you know looks fine
+0:35
+you know it's not great code it's kind
+0:38
+of a crappy website probably but
+0:40
+nonetheless it works however there are
+0:42
+some problems that are not immediately
+0:44
+apparent from just looking at the code
+0:45
+so here I'm going to open up the web
+0:48
+page and we'll see the problem see not
+0:53
+only is this ugly there's also the fact
+0:55
+that if you have red gooey red green
+0:57
+colorblindness you're probably going to
+0:59
+have a lot of trouble reading any of the
+1:00
+actual text because it's green on red
+1:03
+this is probably not immediately
+1:05
+apparent to most people and it doesn't
+1:06
+even affect most people but it's still
+1:08
+there and you want your website to be
+1:09
+accessed to be able to be accessed by
+1:11
+every person you know every person who
+1:14
+can't access your website because of a
+1:15
+disability is lost business in addition
+1:17
+to just being unfair to that person so
+1:22
+to combat this the World Wide Web
+1:25
+Consortium which is more or less the
+1:27
+governing body of the web or as close as
+1:29
+can be to one created the web
+1:31
+accessibility initiative which sought to
+1:34
+create web content accessibility
+1:36
+guidelines or WCAG currently they have
+1:40
+published wcag 2.0 in 2008 and that's
+1:45
+pretty much the why most widely accepted
+1:46
+standard for web accessibility standards
+1:50
+pretty much every country goes by some
+1:52
+variant of this or just uses WCAG 2 so
+1:57
+what does that consist of well there are
+2:00
+four main principles information should
+2:03
+be perceivable which basically means
+2:05
+that everyone should be able to perceive
+2:08
+the information you shouldn't have any
+2:10
+information that's hidden to a
+2:11
+particular class of users for
+2:13
+if you are deaf you should have
+2:16
+transcripts that you can read for audio
+2:17
+podcasts because otherwise that
+2:19
+information will be completely hidden
+2:21
+information and the website needs to be
+2:24
+operable which means you need to be able
+2:25
+to access all of the website regardless
+2:28
+of disabilities so for example you
+2:30
+wouldn't want for example a button that
+2:32
+can only be activated by clicking on it
+2:34
+and not by any sort of keyboard commands
+2:36
+because then if you can't use a mouse do
+2:38
+it for example a motor disability you're
+2:40
+not going to be able to access that
+2:41
+button you have understandable this one
+2:45
+is a little bit more vague a little bit
+2:47
+more straightforward basically all
+2:50
+information needs to be able to be
+2:51
+understood by the user your website
+2:53
+should be predictable it shouldn't do
+2:55
+just like weird like unexplained things
+2:56
+this is also just good website design
+2:58
+besides being helpful to some people
+3:00
+with disabilities and then lastly your
+3:02
+website needs to be a robust which
+3:04
+basically just means you know for
+3:06
+unpredictable use cases for things you
+3:08
+haven't tested you know for different
+3:09
+weird specs like on mobile on a big
+3:12
+screen on all that type of stuff your
+3:13
+website should still operate more or
+3:15
+less the same and still be accessible to
+3:17
+everyone
+3:17
+so there are 12 general guidelines for
+3:21
+implementing these principles which have
+3:23
+61 testable criteria and there are three
+3:26
+levels of conformance a double-a and
+3:28
+triple-a so at this point you're
+3:30
+probably like feel a little bit like
+3:31
+Cody here because yeah it's very complex
+3:35
+and in making a site completely web
+3:37
+accessible and implementing it as Triple
+3:39
+A which is the highest level is very
+3:41
+difficult and it takes a long time the
+3:44
+point is you shouldn't worry about that
+3:45
+too much
+3:46
+you should mostly focus on when you're
+3:48
+building a website think about the type
+3:50
+of things that could make life easier
+3:51
+for disabled people think about
+3:53
+implementing alternatives so if you have
+3:55
+a function that really just can't be
+3:57
+implemented in a way that's accessible
+3:58
+provide an alternative to get the same
+4:00
+information it doesn't have to be on the
+4:02
+main site as long as you can get to it
+4:03
+from the main site and even a lot of
+4:06
+like professional websites and even a
+4:08
+lot of governments only require single A
+4:10
+or double-a levels of conformance Triple
+4:12
+A is very very much an ideal moreso than
+4:15
+a practical thing for large websites so
+4:18
+to think about what kind of disabilities
+4:20
+you should be targeting here are some
+4:22
+general categories you have people with
+4:25
+visual disabilities for example the
+4:26
+blind
+4:27
+colorblind things like that people can't
+4:29
+read very well so for these types of
+4:32
+things you need to think about how you
+4:33
+use color a lot you shouldn't use you
+4:36
+shouldn't have contrast between text and
+4:38
+background that makes it difficult to
+4:40
+see you should make sure all your
+4:42
+websites are capable of being used by
+4:44
+screen readers which are basically just
+4:46
+things that are operated by the keyboard
+4:48
+and just read out the content of the
+4:49
+thing so for example a classic example
+4:52
+of this is an image tag you need to have
+4:55
+an alt tag in your images because
+4:58
+otherwise people with slow internet or
+4:59
+people using screen readers are not
+5:00
+going to get anything information from
+5:02
+that it's just going to be this mystical
+5:04
+thing that no one can look at you have
+5:06
+people of audio disabilities so for
+5:08
+example deafness hard-of-hearing and so
+5:11
+these are the aforementioned
+5:13
+transcripts come in a lot of handy you
+5:15
+want to have subtitles for videos
+5:16
+transcripts for podcasts etc motor
+5:20
+disabilities so for example things that
+5:22
+make it difficult to use a mouse or even
+5:23
+things that make it difficult to use a
+5:25
+keyboard this is why you want to have
+5:26
+your website be completely accessible
+5:28
+solely from the keyboard so that people
+5:30
+not who can't use a mouse can still use
+5:33
+it completely and then cognitive this
+5:36
+one's a little bit harder to quantify
+5:37
+specifically but basically just make
+5:40
+your information able to be accessed by
+5:42
+people with learning disabilities you
+5:45
+know even like younger children also
+5:46
+like people who aren't necessarily going
+5:48
+to be able to like read and understand
+5:50
+like a long block of text or whatever so
+5:54
+we're going to go over another example
+5:55
+I've built my own private website and
+5:58
+I'm really proud of it so you know I'm
+5:59
+going to show it to you guys are you
+6:01
+ready oh well that doesn't look very
+6:04
+good huh all right so I thought this
+6:09
+website was gonna be great but clearly
+6:10
+there's a lot of web accessibility
+6:12
+issues like the contrast is terrible
+6:14
+this might trigger people with epilepsy
+6:15
+I don't even know what this is let's
+6:18
+look at the actual document so you
+6:20
+wouldn't clean some of this up so the
+6:23
+first thing you should do when you're
+6:24
+mixing a website to make it more web
+6:25
+accessible is the biggest problem with
+6:28
+this code is it's really hard to read
+6:29
+because I didn't implement a stylesheet
+6:31
+I just have all this code inside style
+6:33
+tag I have some inline styling and then
+6:37
+my script tag instead of putting it in a
+6:38
+separate JavaScript pile I just put
+6:40
+actual script right here so the first
+6:42
+thing you should do is refactor those
+6:44
+and take all those out and move them to
+6:46
+a separate file so the difference
+6:48
+between this which is this long
+6:50
+unreadable thing and then this which is
+6:54
+just the HTML itself is huge and it
+6:56
+makes it much easier to change things
+6:58
+it's like for example you'll notice I've
+7:00
+been pointed everything with classes I
+7:01
+have a script file I have a style sheet
+7:05
+somewhere else don't panic also it's a
+7:15
+very daunting task especially when
+7:16
+you're using some sort of editor that
+7:18
+will give you all these errors for like
+7:19
+this is not accessible this is not
+7:21
+accessible this is you're doing this
+7:22
+wrong don't panic don't worry about
+7:24
+making everything perfect immediately
+7:26
+because it's not going to be it's very
+7:28
+difficult to make a website completely
+7:30
+web accessible that's why it's taken so
+7:31
+long for the w3c to implement the WCAG
+7:38
+separate your HTML from your CSS and
+7:40
+your JavaScript and consider providing
+7:43
+alternatives sometimes it's a lot easier
+7:45
+instead of just completely changing your
+7:46
+main site to just provide a link there
+7:48
+that says you know for people with this
+7:50
+disability consider using this other
+7:52
+resource and then you can just provide
+7:54
+it very simply without having to change
+7:56
+your main website and then if anyone is
+8:01
+interested you can read about the WCAG
+8:04
+guidelines in greedy detail at this
+8:07
+website thank you
+8:09
+[Applause]

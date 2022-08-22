@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Website Design</title>
+    <link href="./style.css" rel="stylesheet">
+    <!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img class="UX_UI_Logo" src="images/UX_UI Logo.png" alt="UX _UI Logo"
+                    title="UX/UI Logo">&nbsp;&nbsp;&nbsp;
+                <a class="navbar-brand" href="#"><i class="bi bi-globe"></i> UI Designs</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <section role="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <em>
+                            <h2>Video Section</h2>
+                        </em>
+                        <video id="video" controls preload="metadata"
+                            title="Web Accessibility Guidelines - How to make your code Web Accessible.mp4">
+                            <source
+                                src="https://rr2---sn-npoe7ney.googlevideo.com/videoplayback?expire=1660825412&ei=5Nr9Yq_NLISqtQfd0YToDw&ip=173.245.202.91&id=o-AAifHMBMI3IRNt5i9prfq02bjxZz9I8OWuYuAxNn43W2&itag=18&source=youtube&requiressl=yes&spc=lT-Khs7Nx5IefuhnmF96POfrcjfaxgM&vprv=1&mime=video%2Fmp4&ns=cm_mRFuSkRLz1q3J0WLZJwcH&cnr=14&ratebypass=yes&dur=494.979&lmt=1636286906942948&fexp=24001373,24007246,24239133&beids=24239133&c=WEB&rbqsm=fr&txp=1218224&n=-mMsEOkcyj2v2g&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgXCYuxyIkh2oK28r7MsEf9tKnx6YB6OmS-ILyQcaLOHcCIFH0Z0ebPhuWtOdw_P82fZ5-U_1DNrEGgCnjx1kqoKwb&redirect_counter=1&cm2rm=sn-vgqesr76&req_id=9ae06fea7072a3ee&cms_redirect=yes&cmsv=e&mh=qb&mip=136.226.250.105&mm=34&mn=sn-npoe7ney&ms=ltu&mt=1660803650&mv=m&mvi=2&pl=23&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgL7ZscmHDHwSaffaNLs0oqhVfGFSII02UlK-_E0H9bnkCIFstLA9QAvZUuLp-wvoQcpVlMdSJuolz8kr32Q-2CTOV"
+                                type="video/mp4">
+                            <track label="English" kind="subtitles" srclang="en" src="./vtt/sample.vtt" default>
+                            
+                        </video>
+                        <caption>
+                            <p>Web Accessibility Guidelines - How to make your code Web Accessible</p>
+                        </caption>
+                        <button class="btn btn-primary btn_right" onclick="transcriptss()">Show Transcript</button>
+                    </div>
+                    <div class="col">
+                        <div id="div_popoup">
+                            <p><iframe id="popoup" src="assets/sample.txt" frameborder="0" width="40%"></iframe></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <br />
+            <div>
+                <em>
+                    <h2>Image Section</h2>
+                </em>
+            </div>
+            <div class="content-section">
+                <img src="./images/mawsmai falls_1510845097t.jpg" alt="National park" class="responsive" />
+                <p>
+                    Mawsmai Falls, situated at a short distance from Mawsynram, is a splendid waterfall emerging out of
+                    the hills.
+                    This has the distinction of being the fourth largest waterfall in India.
+
+                    It is also known as the Seven Sisters Waterfalls or Nohsngithiang Falls. It is a magnificent natural
+                    wonder.
+                    Water falls from a great height of 315 meters. It looks particularly beautiful during the time of
+                    sunset as the water is illuminated by vibrant colors of the setting sun. This is a spectacular
+                    sight.</p>
+            </div>
+
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-content">
+                <ul class="socials">
+                    <li><a href="https://www.facebook.com/" aria-label="facebook"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/login" aria-label="twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.google.com/intl/en-GB/gmail/about/" aria-label="google plus"><i
+                                class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.youtube.com/" aria-label="you tube"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/signup" aria-label="linkedin"><i
+                                class="fa fa-linkedin-square"></i></a>
+                    </li>
+                </ul>
+                <div class="footer-bottom">
+                    <p>copyright &copy;2022 <a href="#">web-developer</a> </p>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
